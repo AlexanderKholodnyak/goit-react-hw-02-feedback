@@ -3,13 +3,13 @@ import Section from './components/Section';
 import FeedbackOptions from './components/FeedbackOptions';
 import Statistics from './components/Statistics';
 import Notification from './components/NotificationMessage';
+//import './App.css';
 
 class App extends Component {
   state = {
     good: 0,
     neutral: 0,
     bad: 0,
-    // total: 0,
   };
 
   onFeedbackRefresh = ({ target }) => {

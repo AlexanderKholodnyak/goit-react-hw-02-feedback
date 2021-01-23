@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import s from './FeedbackOptions.module.css';
 
 const FeedbackOptions = ({ options, onFeedback }) => (
   <div>
@@ -9,6 +10,7 @@ const FeedbackOptions = ({ options, onFeedback }) => (
         data-action={option}
         onClick={onFeedback}
         key={option}
+        className={s.button}
       >
         {option}
       </button>

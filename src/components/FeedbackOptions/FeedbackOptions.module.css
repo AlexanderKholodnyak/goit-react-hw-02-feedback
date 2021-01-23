@@ -1,0 +1,26 @@
+.button {
+  margin-left: 10px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: white;
+  outline: none;
+  color: black;
+}
+
+.button:first-child {
+  background-color: lightgreen;
+}
+.button:last-child {
+  background-color: magenta;
+}
+
+.button:first-child:hover,
+.button:last-child:hover,
+.button:hover {
+  background-color: rgb(39, 5, 189);
+  color: white;
+  border: 1px solid transparent;
+}
